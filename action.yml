@@ -1,0 +1,16 @@
+name: ${name}
+description: ${description}
+author: northwang-lucky
+
+# branding:
+#   icon: upload-cloud
+#   color: blue
+
+# inputs:
+#   option-name:
+#     description: xxx
+#     required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
